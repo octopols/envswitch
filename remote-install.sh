@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 #  envswitch remote installer
-#  curl -fsSL https://raw.githubusercontent.com/YOUR_USERNAME/envswitch/main/remote-install.sh | bash
+#  curl -fsSL https://raw.githubusercontent.com/octopols/envswitch/main/remote-install.sh | bash
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 set -e
 
-REPO="cotopols/envswitch"
+REPO="octopols/envswitch"
 BRANCH="main"
 BASE_URL="https://raw.githubusercontent.com/${REPO}/${BRANCH}"
 INSTALL_DIR="$HOME/.config/envswitch"
